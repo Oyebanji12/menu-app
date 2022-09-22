@@ -1,13 +1,98 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p{
+  margin-bottom: 2rem;
+  color: hsl(210, 22%, 49%);
 }
+.title{
+  text-align: center;
+  font-size: 1.4rem;
+  color: #102A42;
+}
+.underline{
+  width: 7rem;
+  height: 0.36rem;
+  background-color: #C59D5F;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.btn-container{
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+
+}
+.filter-btn{
+  background: transparent;
+  border-color: transparent;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0rem 0.5rem;
+  letter-spacing: 1px;
+  padding: 0.35rem 0.75rem;
+  color: #c59d5f;
+  cursor: pointer;
+  border: 2rem;
+  
+}
+.filter-btn:hover{
+  color: #ffff;
+  background: #c59d5f;
+}
+
+.section-center{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+  
+}
+ .menu-item{
+  display: grid;
+   gap: 1rem 2rem; 
+   max-width: 25rem; 
+} 
+
+
+.photo{
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  display: block;
+  border: 0.25rem solid #c59d5f;
+  border-radius: 0.37rem;
+}
+.item-info header{
+  display: flex;
+  justify-content: space-between;
+
+}
+.item-info h4{
+  margin-bottom: 0.5rem;
+}
+.price{
+  color: #c59d5f;
+}
+.item-text{
+  margin-bottom: 0rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.title-1{
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+
+
+
